@@ -1,3 +1,6 @@
+Guidelines for the getting started docs
+https://github.com/thesteve0/v51-gs-draft/blob/main/GETTING_STARTED_FORMAT.md
+
 1. Make a directory in docs/getting_started/focused_getting_starteds for your project
 2. Make juypter notebook in this directory
 2. Remember, all images and other files go in an "assets" directory inside project directory 
@@ -15,14 +18,11 @@ links are correct
    9. If you don't need any APIs just images `build.sh --skip-all-api --skip-clone --venv <your venv>`
    10. `cd site/`
    11. `python -m http.server`
-
-
-
 5. Don't forget to ask someone to review
 6. Reviewnb is set up for this repo but I have not tried it yet. You may need to create an account to see work with the reviews
 https://www.reviewnb.com/
 
-Assumptions:
+Assumptions for the libraries we use in our notebooks:
 1. Python 3.11?
 2. Fiftyone Latest?
 3. Anything else?
