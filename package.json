@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "typedoc": "^0.23.21",
+    "typescript": "^4.7.4",
+    "vite": "^5.4.12"
+  },
+  "dependencies": {
+    "node": "^23.9.0",
+    "nvm": "^0.0.4"
+  }
+}

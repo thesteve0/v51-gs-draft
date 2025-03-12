@@ -172,3 +172,7 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+/v51-gs-draft.iml
+.idea/
+.wslvenv/
+node_modules/
