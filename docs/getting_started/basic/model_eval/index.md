@@ -12,7 +12,7 @@ We will start with the assumption that you are familiar with the basic FiftyOne 
 ## Required packages
 FiftyOne and Pytorch are required. You can install both with
 ```
-pip install fiftyone torch
+pip install fiftyone torch ultralytics pycocotools
 ```
 
 ## Content
