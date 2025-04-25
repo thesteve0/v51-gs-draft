@@ -7,7 +7,10 @@ https://github.com/thesteve0/v51-gs-draft/blob/main/GETTING_STARTED_FORMAT.md
 3. No GIFs. Animated images should be in webp (ideally all images are in webp).
 4. Images should not be more than 1600x wide
 5. You can do a `mkdocs serve --dirty` and it will render your notebook and you can preview it
-6. Continue to edit and make changes
+
+**YOU MUST RUN THE BUILD AND SERVE BEFORE DOING A PR - it is the only way to make sure our notebook converter can parse your file!!** 
+
+7. Continue to edit and make changes
 7. If you add links to the API or you add images as links (in the assets folder) please do a full build. This will allow you to check if all your
 links are correct
    8. `pip install -r requirements.txt`

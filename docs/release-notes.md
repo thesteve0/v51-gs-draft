@@ -5621,7 +5621,7 @@ ID-based queries
 
 - Added support for gracefully loading and deleting evaluations and brain
 methods executed in future versions of FiftyOne (e.g., after
-[downgrading](getting_started/basic/install.md#downgrading-fiftyone) your FiftyOne package version)
+[downgrading](fiftyone_concepts/install.md#downgrading-fiftyone) your FiftyOne package version)
 
 - Added an optional `progress` flag to
 [`iter_samples()`](api/fiftyone.core.collections.html#fiftyone.core.collections.SampleCollection.iter_samples "fiftyone.core.collections.SampleCollection.iter_samples")
@@ -5631,7 +5631,7 @@ that renders a progress bar tracking the progress of the iteration
 
 - A helpful error message is now raised when a user tries to load a dataset
 from a future version of FiftyOne without following the
-[downgrade instructions](getting_started/basic/install.md#downgrading-fiftyone)
+[downgrade instructions](fiftyone_concepts/install.md#downgrading-fiftyone)
 
 - Fixed a bug that prevented FiftyOne from being imported on read-only
 filesystems
@@ -6414,7 +6414,7 @@ all other model types have no default confidence threshold
 
 CLI
 
-- Added a [migration API](getting_started/basic/install.md#downgrading-fiftyone) to provide better support
+- Added a [migration API](fiftyone_concepts/install.md#downgrading-fiftyone) to provide better support
 for downgrading the version of your `fiftyone` package
 
 
@@ -6424,7 +6424,7 @@ Docs
 explains how to evaluate various types of models with FiftyOne
 
 - Removed legacy `--index` flags from the install instructions from the
-[troubleshooting page](getting_started/basic/troubleshooting.md#troubleshooting) which prevented a valid
+[troubleshooting page](fiftyone_concepts/troubleshooting.md#troubleshooting) which prevented a valid
 installation
 
 
